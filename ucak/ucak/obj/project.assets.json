@@ -7922,11 +7922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayseg\\Desktop\\ucak\\ucak\\ucak.csproj",
+      "projectUniqueName": "C:\\Users\\ayseg\\Documents\\GitHub\\ucakRezervasyonSistemi\\ucak\\ucak\\ucak.csproj",
       "projectName": "ucak",
-      "projectPath": "C:\\Users\\ayseg\\Desktop\\ucak\\ucak\\ucak.csproj",
+      "projectPath": "C:\\Users\\ayseg\\Documents\\GitHub\\ucakRezervasyonSistemi\\ucak\\ucak\\ucak.csproj",
       "packagesPath": "C:\\Users\\ayseg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayseg\\Desktop\\ucak\\ucak\\obj\\",
+      "outputPath": "C:\\Users\\ayseg\\Documents\\GitHub\\ucakRezervasyonSistemi\\ucak\\ucak\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ayseg\\AppData\\Roaming\\NuGet\\NuGet.Config",

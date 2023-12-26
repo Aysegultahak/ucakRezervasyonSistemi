@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZqSK42BJZFDqhQYd+YVU6J8EmCY66fUr3ziosjydC8XApUamD9Toli1ib5JYmcoMKfyga18vuPK2V1/aAIcvcg==",
+  "dgSpecHash": "1pmE0Eke5+SBtWH9hMAVRwdAmB4KZEqgGU7VzdWi+BsGYvJbnYeBnx55qf7T1JrIn/oDuY4tgHv2sYnToNn1Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayseg\\Desktop\\ucak\\ucak\\ucak.csproj",
+  "projectFilePath": "C:\\Users\\ayseg\\Documents\\GitHub\\ucakRezervasyonSistemi\\ucak\\ucak\\ucak.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayseg\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ayseg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

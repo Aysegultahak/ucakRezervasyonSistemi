@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ucak
 build_property.RootNamespace = ucak
-build_property.ProjectDir = C:\Users\ayseg\Desktop\ucak\ucak\
+build_property.ProjectDir = C:\Users\ayseg\Documents\GitHub\ucakRezervasyonSistemi\ucak\ucak\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\ayseg\Desktop\ucak\ucak
+build_property.MSBuildProjectDirectory = C:\Users\ayseg\Documents\GitHub\ucakRezervasyonSistemi\ucak\ucak
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Account/Login.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Account/Profile.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Account/Register.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Admin/Index.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Home/AccessDenied.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Home/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Home/Index.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Home/Privacy.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Member/Index.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Member/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Member/_AddNewUserPartial.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Member/_AddNewUserPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXF9BZGROZXdVc2VyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Member/_EditUserPartial.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Member/_EditUserPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXF9FZGl0VXNlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Member/_MemberListPartial.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Member/_MemberListPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXF9NZW1iZXJMaXN0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Shared/Error.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/User/Create.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/User/Edit.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/User/Index.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/_ViewImports.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/_ViewStart.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayseg/Desktop/ucak/ucak/Views/Shared/_Layout.cshtml]
+[C:/Users/ayseg/Documents/GitHub/ucakRezervasyonSistemi/ucak/ucak/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vi1tzyej2d
