@@ -1,0 +1,209 @@
+﻿@model FlightBooking5.Models.Flight
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="/img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-blank.html" />
+
+	<title>Blank Page | AdminKit Demo</title>
+
+	<link href="/css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="/Admin">
+					<span class="align-middle">AdminKit</span>
+				</a>
+
+				<ul class="sidebar-nav">
+				<li class="sidebar-header">
+					Admin Manager
+				</li>
+
+
+
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/AddFlight">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Add Flight</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/AddRole">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Add Role</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/PaymentDetails">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Payment Details</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/EmployeeAssignment">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Employee Assignment</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/InputUser">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Change Role</span>
+					</a>
+				</li>
+
+
+				<li class="sidebar-header">
+					Employee
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/EmployeeSchedule">
+							<i class="align-middle" data-feather="book"></i> <span class="align-middle">Employee Schedule</span>
+					</a>
+				</li>
+				<li class="sidebar-header">
+					Marketing
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/Ads">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Advertisement</span>
+					</a>
+				</li>
+				</ul>
+
+
+
+
+			</div>
+		</nav>
+
+		<div class="main">
+
+
+			<main class="content">
+				<div class="container-fluid">
+
+					<h1 class="h3 mb-3">Create</h1>
+
+					<div class="row">
+						<div class="col-12">
+							<div class="card">
+								<div class="card-header">
+                                    <h3>  <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="AddFlight">Back</a> </h3>
+                                </div>
+								<div class="card-body">
+									
+                                    <h4>Flight</h4>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <form asp-action="Create">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <div class="form-group">
+                                                    <label asp-for="Airline" class="control-label"></label>
+
+                                                    <select asp-for="Airline" class="form-control">
+
+
+                                                        <option value="Vietnam Airway">Vietnam Airway</option>
+                                                        <option value="BamBo Airway">BamBo Airway</option>
+                                                        <option value="VietJet Air"> VietJet Air</option>
+                                                    </select>
+                                                    <span asp-validation-for="Airline" class="text-danger"></span>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label asp-for="AircraftCode" class="control-label"></label>
+                                                    <input asp-for="AircraftCode" class="form-control" />
+                                                    <span asp-validation-for="AircraftCode" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="AircraftType" class="control-label"></label>
+                                                    <input asp-for="AircraftType" class="form-control" />
+                                                    <span asp-validation-for="AircraftType" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="DepartureCountry" class="control-label"></label>
+                                                    <input asp-for="DepartureCountry" class="form-control" />
+                                                    <span asp-validation-for="DepartureCountry" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="ArrivalCountry" class="control-label"></label>
+                                                    <input asp-for="ArrivalCountry" class="form-control" />
+                                                    <span asp-validation-for="ArrivalCountry" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="DepartureDate" class="control-label"></label>
+                                                    <input asp-for="DepartureDate" class="form-control" />
+                                                    <span asp-validation-for="DepartureDate" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" asp-for="FlightStatus" /> @Html.DisplayNameFor(model => model.FlightStatus)
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="Price" class="control-label"></label>
+                                                    <input asp-for="Price" class="form-control" />
+                                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="DepartureTime" class="control-label"></label>
+                                                    <input asp-for="DepartureTime" class="form-control" />
+                                                    <span asp-validation-for="DepartureTime" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="ArrivalTime" class="control-label"></label>
+                                                    <input asp-for="ArrivalTime" class="form-control" />
+                                                    <span asp-validation-for="ArrivalTime" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="Class" class="control-label"></label>
+
+                                                    <select asp-for="Class" class="form-control">
+
+
+                                                        <option value="First Class">First Class</option>
+                                                        <option value="Economy">Economy</option>
+                                                        <option value="Business">Business</option>
+                                                    </select>
+                                                    <span asp-validation-for="Class" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+
+		</div>
+	</div>
+
+	<script src="/js/app.js"></script>
+
+</body>
+
+</html>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

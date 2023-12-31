@@ -1,0 +1,165 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="/img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-blank.html" />
+
+	<title>Blank Page | AdminKit Demo</title>
+
+	<link href="/css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="/Admin">
+					<span class="align-middle">AdminKit</span>
+				</a>
+				<ul class="sidebar-nav">
+				<li class="sidebar-header">
+					Admin Manager
+				</li>
+
+
+
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/AddFlight">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Add Flight</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/AddRole">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Add Role</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/PaymentDetails">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Payment Details</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/EmployeeAssignment">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Employee Assignment</span>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/InputUser">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Change Role</span>
+					</a>
+				</li>
+
+
+				<li class="sidebar-header">
+					Employee
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/EmployeeSchedule">
+							<i class="align-middle" data-feather="book"></i> <span class="align-middle">Employee Schedule</span>
+					</a>
+				</li>
+				<li class="sidebar-header">
+					Marketing
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/Admin/Ads">
+						<i class="align-middle" data-feather="book"></i> <span class="align-middle">Advertisement</span>
+					</a>
+				</li>
+				</ul>
+
+
+
+
+			</div>
+		</nav>
+
+		<div class="main">
+
+
+			<main class="content">
+				<div class="container-fluid">
+
+					<h1 class="h3 mb-3">Role</h1>
+
+					<div class="row">
+						<div class="col-12">
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0"></h5>
+								</div>
+								<div class="card-body">
+									<style>
+										.bordered-table {
+											border-collapse: collapse; /* Hợp nhất đường viền ô trong bảng */
+										}
+
+											.bordered-table th, .bordered-table td {
+												border: 1px solid black; /* Đường viền 1px dày với màu đen */
+												padding: 4px; /* Khoảng đệm giữa nội dung và đường viền */
+												width: 28%; /* Điều chỉnh chiều rộng của bảng */
+												font-size: 10px; /* Điều chỉnh kích thước phông chữ */
+											}
+									</style>
+									<p>
+										<a class="nav-link text-dark" asp-area="" asp-controller="AppRole" asp-action="Create">Create New</a>
+									</p>
+									<table class="table">
+										<thead>
+											<tr>
+												<th>
+													@Html.DisplayNameFor(model => model.Id)
+												</th>
+												<th>
+													@Html.DisplayNameFor(model => model.Name)
+												</th>
+
+												<th></th>
+											</tr>
+										</thead>
+										<tbody>
+											@foreach (var item in Model)
+											{
+												<tr>
+													<td>
+														@Html.DisplayFor(modelItem => item.Id)
+													</td>
+													<td>
+														@Html.DisplayFor(modelItem => item.Name)
+													</td>
+
+												</tr>
+											}
+										</tbody>
+									</table>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+
+		</div>
+	</div>
+
+	<script src="/js/app.js"></script>
+
+</body>
+
+</html>

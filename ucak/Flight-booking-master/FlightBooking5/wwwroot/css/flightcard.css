@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.flight-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flight-departure, .flight-arrival {
+    flex: 1;
+    text-align: center;
+}
+
+.flight-logo {
+    flex: 0 0 120px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+    .flight-logo img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+.flight-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flight-info {
+    display: flex;
+    flex-direction: column;
+}
+
+    .flight-info p {
+        margin: 2px 0;
+    }
+
+    .flight-info .aircode {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .flight-info .airtype {
+        font-size: 16px;
+        
+        color: #333;
+    }
+
+    .flight-info .class {
+        font-size: 14px;
+        color: #666;
+    }
+
+.book-button-container {
+    margin-left: 20px;
+}
+
+.book-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .book-button:hover {
+        background-color: #0056b3;
+    }

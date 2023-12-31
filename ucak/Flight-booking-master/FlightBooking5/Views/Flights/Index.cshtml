@@ -1,0 +1,95 @@
+﻿@model IEnumerable<FlightBooking5.Models.Flight>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AircraftCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AircraftType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArrivalCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArrivalTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airline)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AircraftCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AircraftType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrivalCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrivalTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Class)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Airline)
+                </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.flightId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.flightId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.flightId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,202 @@
+﻿@model FlightBooking5.Models.Flight
+
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+    <meta name="author" content="AdminKit">
+    <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="/img/icons/icon-48x48.png" />
+
+    <link rel="canonical" href="https://demo-basic.adminkit.io/pages-blank.html" />
+
+    <title>Blank Page | AdminKit Demo</title>
+
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="sidebar js-sidebar">
+            <div class="sidebar-content js-simplebar">
+                <a class="sidebar-brand" href="/Admin">
+                    <span class="align-middle">AdminKit</span>
+                </a>
+
+                <ul class="sidebar-nav">
+                <li class="sidebar-header">
+                    Admin Manager
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/AddFlight">
+                        <i class="align-middle" data-feather="book"></i> <span class="align-middle">Add Flight</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/AddRole">
+                        <i class="align-middle" data-feather="book"></i> <span class="align-middle">Add Role</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/PaymentDetails">
+                        <i class="align-middle" data-feather="book"></i> <span class="align-middle">Payment Details</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/EmployeeAssignment">
+                        <i class="align-middle" data-feather="book"></i> <span class="align-middle">Employee Assignment</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/InputUser">
+                        <i class="align-middle" data-feather="book"></i> <span class="align-middle">Change Role</span>
+                    </a>
+                </li>
+
+
+                <li class="sidebar-header">
+                    Employee
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/EmployeeSchedule">
+                            <i class="align-middle" data-feather="book"></i> <span class="align-middle">Employee Schedule</span>
+                    </a>
+                </li>
+                <li class="sidebar-header">
+                    Marketing
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="/Admin/Ads">
+                        <i class="align-middle" data-feather="book"></i> <span class="align-middle">Advertisement</span>
+                    </a>
+                </li>
+                </ul>
+
+
+
+
+            </div>
+        </nav>
+
+        <div class="main">
+
+
+            <main class="content">
+                <div class="container-fluid">
+
+                    <h1 class="h3 mb-3">Detail</h1>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>  <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="AddFlight">Back</a> </h3>
+                                </div>
+                                <div class="card-body">
+
+                                    <div>
+                                        <h4>Flight</h4>
+                                        <hr />
+                                        <dl class="row">
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.AircraftCode)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.AircraftCode)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.AircraftType)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.AircraftType)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.DepartureCountry)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.DepartureCountry)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.ArrivalCountry)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.ArrivalCountry)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.DepartureDate)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.DepartureDate)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.FlightStatus)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.FlightStatus)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.Price)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.Price)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.DepartureTime)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.DepartureTime)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.ArrivalTime)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.ArrivalTime)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.Class)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.Class)
+                                            </dd>
+                                            <dt class="col-sm-2">
+                                                @Html.DisplayNameFor(model => model.Airline)
+                                            </dt>
+                                            <dd class="col-sm-10">
+                                                @Html.DisplayFor(model => model.Airline)
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div>
+                                        <a asp-action="Edit" asp-route-id="@Model?.flightId">Edit</a> |                                     
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>

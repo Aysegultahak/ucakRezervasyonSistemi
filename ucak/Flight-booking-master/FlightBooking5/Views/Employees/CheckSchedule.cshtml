@@ -1,0 +1,12 @@
+﻿@model FlightBooking5.Models.Flight
+
+<h3>Flight Information</h3>
+<p><strong>Flight ID:</strong> @Model.flightId</p>
+<p><strong>Flight Name:</strong> @Model.AircraftCode</p>
+<p><strong>Departure Time:</strong> @Model.DepartureTime</p>
+<p><strong>Arrival Time:</strong> @Model.ArrivalTime</p>
+<!-- Hiển thị các thông tin khác về chuyến bay -->
+
+<h3>Employee Information</h3>
+<p><strong>Employee Name:</strong> @User.Identity.Name</p>
+<!-- Hiển thị các thông tin khác về nhân viên -->
